@@ -1,3 +1,6 @@
+
+
+
 import random
 
 playerScore = 0
@@ -6,6 +9,7 @@ computerScore = 0
 
 
 for _ in range(10):
+    play = input("Press Enter to play:")
     pSuit = random.choice(["❤️", "♦️", "♣️", "♠️"])
     pCard = random.choice([2, 3, 4, 5, 6, 7, 8, 9, 10, 'J', 'Q', 'K', 'A'])
     cSuit = random.choice(["❤️", "♦️", "♣️", "♠️"])
@@ -67,6 +71,12 @@ else:
     print("Draw")
 print("Your Score:" , playerScore)
 print("Computer Score:" , computerScore)
+
+
+
+
+
+
 
 
 
